@@ -10,7 +10,7 @@ PARAMETROS:
 3 - SENHA DO BANCO DE DADOS
 4 - OBJETO JSON QUE DETERMINA O LOCAL ONDE O BANCO DE DADOS ESTÁ LOCALIZADO E SEU TIPO
 */
-const connection = new Sequelize('libri_upload', 'root', '', {
+const connection = new Sequelize('libri_upload', 'root', '12345678', {
     host: 'localhost',
     dialect: 'mysql',
     timezone: '-03:00'
